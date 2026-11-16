@@ -21,12 +21,12 @@
 <body><main>
 <div class="card">
 <h1>Giggle Buddy — Privacy Policy</h1>
-<p class="meta"><strong>Effective date:</strong> November 13, 2026 · <strong>App:</strong> Giggle Buddy</p>
+<p class="meta"><strong>Effective date:</strong> November 16, 2026 · <strong>App:</strong> Giggle Buddy</p>
 
 
 
 <h2>Summary</h2>
-<p>Giggle Buddy is an offline virtual-plush toy. It does not require an account and does not collect, transmit, sell, or share personal information.</p>
+<p>Giggle Buddy is an offline virtual-plush toy. It does not require an account and does not transmit, sell, or share personal information. Voice echo uses microphone audio only after operating-system permission is granted. Audio stays local and is not transmitted.</p>
 
 <h2>Information the app stores</h2>
 <p>The app stores a small set of preferences locally on your device: sound-effects volume, music volume, whether haptics are enabled, whether reduced motion is enabled, and whether the tutorial has been completed. These values use the platform’s local preference storage and are not sent to the developer or any third party. Uninstalling the app or clearing its data removes them.</p>
@@ -35,7 +35,7 @@
 <ul>
 <li>Names, email addresses, phone numbers, or accounts</li>
 <li>Precise or coarse location</li>
-<li>Contacts, photos, camera, microphone, or files</li>
+<li>Contacts, photos, camera, or files</li>
 <li>Advertising identifiers or tracking data</li>
 <li>Purchase history or payment information</li>
 <li>Analytics, crash reports, or diagnostics</li>
@@ -43,8 +43,9 @@
 </ul>
 
 <h2>Network and permissions</h2>
-<p>The release build is designed to work fully offline. The Android build requests only the normal <code>VIBRATE</code> permission for optional haptics; it does not request the <code>INTERNET</code> permission. The iOS build does not request camera, microphone, photo, location, contacts, or tracking permissions. If a future version adds network, analytics, ads, accounts, or other processing, this policy and the store privacy declarations will be updated before release.</p>
+<p>The release build is designed to work fully offline. The Android build requests <code>VIBRATE</code> for optional haptics and <code>RECORD_AUDIO</code> for automatic foreground voice echo after permission is granted; it does not request the <code>INTERNET</code> permission. The iOS build requests microphone permission for automatic foreground voice echo after permission is granted, but no camera, photo, location, contacts, or tracking permissions. If a future version adds network, analytics, ads, accounts, or other processing, this policy and the store privacy declarations will be updated before release.</p>
 
+<h2>Automatic voice echo</h2><p>After microphone permission is granted at launch, the app listens automatically while foregrounded. Mallow detects pauses and repeats phrases in a funny voice, up to 15 seconds at a time. Audio is processed in temporary memory only, never saved to a file or sent anywhere, and discarded after playback or cancellation. Listening pauses during playback, Settings, and when the app leaves the foreground. It resumes when the app returns or Settings closes if voice mode was active. Tapping Stop listening turns it off until the next launch. If microphone access is denied, the other toys still work. If microphone capture is interrupted while voice echo is on, the app tries to reconnect automatically.</p>
 <h2>Children’s privacy</h2>
 <p>Giggle Buddy is a fictional character and does not depict a real child. The app does not knowingly collect personal information from anyone, including children. The game is intended for children ages 3–8. If you believe the app has unexpectedly collected personal information, contact <a href="mailto:taha.metwally94@gmail.com">taha.metwally94@gmail.com</a>.</p>
 
